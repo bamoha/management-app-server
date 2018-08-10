@@ -31,7 +31,7 @@ app.use(cookieParser());
 
 var originsWhitelist = [
   'http://localhost:4200',      //this is my front-end url for development
-   'http://www.myproductionurl.com'
+  'https://flexisaf-hr.herokuapp.com'
 ];
 var corsOptions = {
   origin: function(origin, callback){
